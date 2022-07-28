@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@200&display=swap');
+body {
+    width: 98vw;
+    padding: 0;
+    margin: 0;
+}
+head {
+    padding: 0;
+}
+html {
+    font-family: 'Sarabun', sans-serif;
+    background: #FFF4F0;
+}
+/*Menu Bar*/
+ul.title {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    background-color: #E1A59A;
+}
+li a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold; 
+    padding: 14px 16px;  /*Padding is used to create space around an element's content*/
+    text-decoration: none;
+}
+li a.active {
+    margin-left: 50px;
+    background-color: purple;
+}
+li a:hover:not(.active) {
+    background-color: white;
+}
+header {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.profile-pic {
+    display: grid;
+    justify-content: center;
+}
+.name {
+    align-items: left;
+    justify-content: left;
+    text-align: center;
+}
+.name p {
+    font-size: 20px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    width: fit-content;
+}
+.content >div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.content >div>div {
+    flex-grow: 1;
+    width: 33%;
+    height: 50%;
+}
+img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    border-width: 15px 15px 15px 15px;
+    border-style: solid;
+    border-color: #E1A59A;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 59px;
+    line-height: 71px;
+    letter-spacing: 0.24em;
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h3 {
+    background-color: #E1A59A;
+    border-radius: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+/* identical to box height */
+    letter-spacing: 0.1em;
+}
+
+h4 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+}
+
+table {
+    border-collapse: separate;
+    display: flex;
+    justify-content: center;
+    
+}
+
+td {
+    text-align: center;
+    background-color: #ffd1f3;
+    padding: 10px;
+}
+
+#left {
+    text-align: left;
+    background-color: #ffd1dc;
+}
+/* comment */
+.form {
+    display: flex;
+    justify-content: center;
+}
