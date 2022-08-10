@@ -17,7 +17,7 @@ img {
     display: block;
     margin: 0 auto;
     margin-top: 10px;
-    width: 100%;
+    width: 50%;
     height: auto;
     object-fit: cover;  /*the image keeps its aspect ratio and fills*/
 }
@@ -28,9 +28,8 @@ figcaption {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
-
     margin: 0;
     padding: 20px 0;
     color: #00539f;
@@ -64,7 +63,7 @@ h1 {
             font-size: 12px;
         }
         h1 {
-            font-size: 35px;
+            font-size: 40px;
         }
         body {
             border: 3px solid black;

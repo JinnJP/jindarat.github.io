@@ -9,7 +9,6 @@ while(true) {
     alert('For n = ' + inputNum + ' prime number are ' + arrayPrimeNumber)
     break;
 }
-
 //check int
 function isInt(n) {
     return n % 1 == 0;
